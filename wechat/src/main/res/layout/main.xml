@@ -4,11 +4,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
     <include
         layout="@layout/weixin"
         android:layout_width="match_parent"
-        android:layout_height="211dp" />
-
+        android:layout_height="55dp" />
 
     <FrameLayout
         android:id="@+id/content"

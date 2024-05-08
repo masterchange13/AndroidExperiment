@@ -77,18 +77,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fragmenthide();
         int id=view.getId();
         removeBackgroundColor();
-        if(id==R.id.LinearLayout1)
-            linearLayout1.setBackgroundColor(Color.RED);
+        if(id==R.id.LinearLayout1){
+            linearLayout1.setBackgroundColor(Color.GREEN);
             fragmentshow(fragment1);
-        if(id==R.id.LinearLayout2)
-            linearLayout2.setBackgroundColor(Color.RED);
+        }
+        if(id==R.id.LinearLayout2){
+            linearLayout2.setBackgroundColor(Color.GREEN);
             fragmentshow(fragment2);
-        if(id==R.id.LinearLayout3)
-            linearLayout3.setBackgroundColor(Color.RED);
+        }
+        if(id==R.id.LinearLayout3){
+            linearLayout3.setBackgroundColor(Color.GREEN);
             fragmentshow(fragment3);
-        if(id==R.id.LinearLayout4)
-            linearLayout4.setBackgroundColor(Color.RED);
+        }
+        if(id==R.id.LinearLayout4){
+            linearLayout4.setBackgroundColor(Color.GREEN);
             fragmentshow(fragment4);
+        }
     }
     //展示
     private void fragmentshow(Fragment fragment){
